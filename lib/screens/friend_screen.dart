@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_kakao_2/components/profile_card.dart';
-import 'package:flutter_kakao_2/models/user.dart';
+import 'package:flutter_kakao_2/models/User.dart';
 
 class FriendScreen extends StatelessWidget {
   const FriendScreen({Key? key}) : super(key: key);
