@@ -21,28 +21,29 @@ class ChatCard extends StatelessWidget {
         ),
         title: Text(
           chat.title,
-          style: TextStyle(
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 16,
           ),
         ),
         subtitle: Text(
           chat.content,
-          style: TextStyle(fontSize: 12),
+          style: const TextStyle(fontSize: 12),
         ),
         trailing: Column(
           children: [
-            Text("오후 11:00"),
-            SizedBox(height: 5),
+            Text(chat.time),
+            const SizedBox(height: 5),
+            if(chat.count != "0")
             Container(
               alignment: AlignmentDirectional.center,
               width: 25,
               height: 25,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.red,
                 shape: BoxShape.circle,
               ),
-              child: Text("1", style: TextStyle(color: Colors.white),),
+              child: Text(chat.count, style: const TextStyle(color: Colors.white),),
             )
           ],
         ),
