@@ -9,5 +9,4 @@
 ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/118786401/229047749-158f214d-6276-43f6-a2d2-29391eb769bf.gif)
 
 ### 채팅하기
-![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/118786401/229049792-b727144d-e158-4f4a-ab3d-63ce026b3f0a.gif)
-
+![ezgif com-video-to-gif (4)](https://user-images.githubusercontent.com/118786401/229049966-83dae50a-e178-4671-9061-8907b184e84f.gif)
