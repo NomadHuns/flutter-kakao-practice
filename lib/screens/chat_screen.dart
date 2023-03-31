@@ -10,7 +10,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(title: Text("친구")),
+      appBar: AppBar(title: const Text("채팅")),
       body: Column(
         children: [
           const SizedBox(height: 10,),

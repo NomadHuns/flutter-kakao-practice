@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_kakao_2/models/chat.dart';
+import 'package:flutter_kakao_2/screens/chat_room_Screen.dart';
 
 import '../models/User.dart';
 
@@ -11,7 +12,11 @@ class ChatCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){},
+      onTap: (){
+        Navigator.push(context,
+            MaterialPageRoute(
+                builder: (context) => ChatRoomScreen()));
+      },
       child: ListTile(
         leading: CircleAvatar(
           radius: 20,
