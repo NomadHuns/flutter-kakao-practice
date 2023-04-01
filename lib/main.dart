@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_kakao_2/screens/main_screen.dart';
+import 'package:flutter_kakao_2/views/main/main_holder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: MainHolder(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
           elevation: 0.0,
